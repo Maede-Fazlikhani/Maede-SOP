@@ -1,0 +1,10 @@
+body {
+    /*background-color: #F8F4E7;*/
+    /*color: #552800;*/
+    max-width: 600px;
+    border: 1px solid #552800;
+    border-radius: 5px;
+    outline: 0 solid #552800;
+    padding: 10px;
+    margin: 16px auto;
+}
