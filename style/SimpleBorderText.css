@@ -1,10 +1,24 @@
+@font-face {
+    font-family:'BYekan';/*تعریف یک نام برای فونت*/
+    src:url('BYekan.eot');/*اکسپلورر 9 به بعد*/
+    src:local('bYekan'),/*بررسی نصب بودن فونت در سیستم کاربر*/
+        local('b Yekan'),/*برای برخی از مرورگرها مانند سافاری*/
+        url('BYekan.eot?#iefix') format('embedded-opentype'),/*هک برای اکسپلورر 8 و ماقبل*/
+        url('BYekan.woff') format('woff'),/*مرورگر های جدید*/
+        url('BYekan.ttf') format('truetype'),/*تمام مرورگرها به جزء اکسپلورر*/
+        url('BYekan.svg#BYekan') format('svg');/*نسخه های قدیمی سیستم عامل iOS*/
+    font-style:normal;
+    font-weight:normal;
+}
+
 body {
     /*background-color: #F8F4E7;*/
     /*color: #552800;*/
-    max-width: 600px;
+    max-width: 1000px;
     border: 1px solid #552800;
     border-radius: 5px;
     outline: 0 solid #552800;
     padding: 10px;
-    margin: 16px auto;
+    margin: 90px auto;
+
 }
