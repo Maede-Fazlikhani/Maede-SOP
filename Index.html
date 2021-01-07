@@ -1,32 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Box Container</title>
-    <link rel="stylesheet" href="style/SimpleBorderText.css">
-
+  <meta charset="UTF-8">
+  <title>CV - Maede</title>
+  <meta name="description" content="simple CV example created with HTML and CSS">
+  <meta name="author" content="Fly Nerd">
+  <link rel="icon" href="./img/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<h2>
-    <p style="direction:rtl;text-align:center;">
-انگیزه نامه مائده فضلی خانی
-</p>
-</h2>
-    <p style="direction:rtl;text-align:right">دانشجوی کارشناسی مهندسی کامپیوتر (نرم افزار) دانشگاه پیام نور ملارد
-جناب دکتر علی رضوی
+  <header>
+    <div>
+      <img src="./img/avatar.jpg" />
+    </div>
+    <h1>مائده فضلی خانی</h1>
+    <section style="direction:rtl;">
+      <p>سلام! من مائده فاضلی خانی هستم. من دانشجوی رشته مهندسی کامپیوتر دانشگاه پیام نور ملارد هستم. امیدوارم در آینده بتوانم یک برنامه نویس وب شوم و به عنوان یک فراند اند کار مشغول کار شوم. از علایق دیگر من در حوزه کامپیوتر دیجیتال مارکتینگ است که به همین منظور چند وقتی است یارا شاپ را راه اندازی کرده ام. من متمرکز ، فداکار ، سخت کوش و مایل به یادگیری در یک محیط متغیر و چالش برانگیز هستم.</p>
+      
+      <a href="https://github.com/Maede-Fazlikhani/Fa-Resume" target="_blank">
+        <i class="fab fa-github-alt"></i>
+      </a>
 
-در طول دوره کارشناسی، من این فرصت را داشتم که دوره هایی مانند لاتک و ایندیزاین را بگذرانم که بسیار کمک کننده برای کار و واحدهای دانشگاهیم بوده است. در طول دوران کارشناسی، در نشریه ای مشغول به کار بودم که این تجربه موفقیت های عملی بسیاری را در من ایجاد کرد. علاوه بر این، تجربه تدریس من یک مجموعه مهارت منحصر به فرد را برای من فراهم کرده است که معتقدم برای موفقیت در حرفه مدیریت و مشاوره بسیار مهم است.
-تجربه کار در زمینه ی تحلیل کسب و کار دیجیتال و همچنین دو سال کار به عنوان کارشناس دیجیتال مارکتینگ، چیزهای زیادی به برتری حرفه ای من در مهارت های بازاریابی اضافه کرد.
-با توجه به مراحلی که پشت سر گذاشتم، به توانایی های خود اطمینان دارم و تلاش می کنم که در هر تیمی نتایج مشابهی را کسب کنم.
-    <p style="direction:rtl;text-align:right;">
-ممنون از وقت شما
-</p>
-    <p style="direction:rtl;text-align:right;">
-با احترام
-مائده فضلی خانی
-</p>
-
-
-</p>
+      </a>
+    </section>
+  </header>
+  <main>
+    <section style="direction:rtl;text-align:right;">
+      <h3>تحصیلات</h3>
+      <article class='course'>
+        <div class='title'>
+          <h4>دیپلم</h4>
+        </div>
+        <div class="descrition">
+          <p>دیپلم ریاضی فیزیک فرهیختگان، تهران، ایران</p>
+        </div>
+      </article>
+      <article class='course'>
+        <div class='title'>
+          <h4>لیسانس</h4>
+        </div>
+        <div class="descrition">
+          <p>دانشجوی کارشناسی مهندسی کامپیوتر نرم افزار - پیام نور، واحد ملارد</p>
+        </div>
+      </article>
+    </section>
+    <section style="direction:rtl;text-align:right;">
+      <h3>مهارت ها</h3>
+      <div class='skills'>
+        <div class='column'>
+          <h4>عمومی و تخصصی</h4>
+          <ul>
+            <li>Microsoft Office</li>
+            <li>Indesign</li>
+            <li>Latex</li>
+            <li>Digital Marketing</li>
+          </ul>
+        </div>
+        <div>
+          <h4>زبان</h4>
+          <p>FR فارسی - زبان مادری</p>
+          <p>ENG انگلیسی - خواندن و نوشتن</p>
+        </div>
+      </div>
+    </section>
+    <section style="direction:rtl;text-align:right;">
+      <h3>تجربیات کاری</h3>
+      <article>
+        <div class='job-title'>
+          <span>فروردین 1396 - آبان 1398</span> <strong>نشریه معماری و شهرسازی ایران</strong><br> <strong>موقعیت شغلی:</strong> صفحه آر
+        </div>
+        <div class='job-title'>
+          <span>تیر 1398 - اکنون</span> <strong>فروشگاه آنلاین یارا</strong><br> <strong>موقعیت شغلی:</strong> کارشناس دیجیتال مارکتینگ
+        </div>
+        
+      </article>
+    </section>
+  </main>
+  <footer style="direction:ltr;text-align:center;">
+    <p> <a href=""></a>   <a href=""></a>  1399 </p>
+    <p> Maede.fazlikhani@gmail.com </p>
+    <p>  +989190182463 </p>
+  </footer>
 </body>
 </html>
